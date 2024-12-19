@@ -1,3 +1,12 @@
+# Game Plan
+1. Verifying some stats of NFTMock
+    1. Total Supply is never negative
+    2. Minting mints 1 NFT
+    3. Sanity checks
+2. Formally verify a lot of stuff for the GasBadNftMarketplace
+    1. Anytime mapping is updated, we emit an event
+    2. Calling ANY function on the gasbadMarketplace, or the NftMarketplace, they end up in the same state
+
 # Gas Bad NFT Marketplace 
 
 <p align="center">
